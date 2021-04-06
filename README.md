@@ -15,6 +15,7 @@ This document is written in [Feedmark](https://catseye.tc/node/Feedmark) format,
 entries ordered chronologically within each section.
 
 *   [Programming Languages](#programming-languages)
+*   [Type Systems](#type-systems)
 *   [Reasoning about Programs](#reasoning-about-programs)
 *   [Software Engineering](#software-engineering)
 *   [Mathematics](#mathematics)
@@ -82,6 +83,19 @@ This paper can sometimes be found attached to a newer paper which is a retrospec
 
 This is my own slogan: Trampolines are just defunctionalized continuations.  The `cont`
 function in Interpreter III in Reynolds' paper above is an example of a trampoline.
+
+Type Systems
+------------
+
+### On Understanding Data Abstraction, Revisited
+
+*   authors: William R. Cook
+*   date: 2009
+*   publication: OOPSLA '09: Proceedings of the 24th ACM SIGPLAN conference on Object oriented programming systems languages and applications
+*   available @ [cs.utexas.edu](https://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf)
+
+Cogently shows that there is a difference between abstract data types and object-orientation,
+and describes it.
 
 ### In Search of Types
 
