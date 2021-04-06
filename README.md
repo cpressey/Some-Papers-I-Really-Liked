@@ -153,6 +153,18 @@ among other things.
 Motivates a lot of the "calculational style" of developing programs.
 Point-free functions, concatenative languages, recursion schemes are all related.
 
+### Laws of Programming
+
+*   authors: C. A. R. Hoare et al.
+*   date: 1987
+*   publication: Communications of the ACM, August 1987, Vol. 30 No. 8
+*   available @ [ox.ac.uk](http://www.cs.ox.ac.uk/bill.roscoe/publications/20.pdf)
+
+This applies the ideas of "calculational style" to imperative, rather than functional,
+programs.  In the process it gives a mini-overview of denotational semantics.
+Since specifications and programs are written in the same notation, this leads into
+what is often called "program refinement".
+
 ### Algebraic Identities for Program Calculation
 
 *   authors: Richard Bird
