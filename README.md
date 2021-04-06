@@ -151,7 +151,7 @@ among other things.
 *   available @ [kestrel.edu](https://www.kestrel.edu/people/meertens/publications/papers/Algorithmics.pdf)
 
 Motivates a lot of the "calculational style" of developing programs.
-Point-free functions, concatenative languages, recursion schemes are all related.
+Point-free programming, concatenative languages, and recursion schemes are all related.
 
 ### Laws of Programming
 
@@ -189,6 +189,38 @@ feeling bold, I might go one further and say: the universal property of
 
 Software Engineering
 --------------------
+
+### Programming as Theory Building
+
+*   authors: Peter Naur
+*   date: 1985
+*   publication: Microprocessing and Microprogramming, Volume 15 Issue 5
+*   available @ [cs.wisc.edu](http://pages.cs.wisc.edu/~remzi/Naur.pdf)
+
+It's worth reading.  It's hard to disagree with the main premise, that
+programmers form mental models of the programs they work on.
+
+But it's worth remembering this was written 35 years ago.  We don't
+say "computer programmer" anymore, we say "software developer", and
+sometimes they even call themselves "craftspeople" or whatever.
+
+So one would hope that few people seriously think that the primary task
+of a software developer is to semi-mechanically churn out a program text.
+
+(One would *hope*.  One might of course be quite disappointed.)
+
+And it's also limiting to think that the theory of a program can only
+be transmitted by the programmer who built it explaining something
+face-to-face.  Or that the theory of the program is even the most
+important thing.  The program can only tell you what the program
+*actually does*, not what it is *supposed* to do.  For that, you need
+a specification, which is its own theory.
+
+One would hope, in the 2020's, that developers at least *try* to make
+the theory of the specification that their programs intend to meet,
+explicit, in their automated test suites and where-ever else.
+
+(Again, one would *hope*.)
 
 ### Statecharts
 
