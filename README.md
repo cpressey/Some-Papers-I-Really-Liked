@@ -33,7 +33,7 @@ Programming Languages
 
 Strachey notes that mathematicians have problems seeing functions as first-class objects.
 (In the term-rewriting language Aardappel, first-class functions were also evaluated to be
-not so hot.)  This coincides, in an oblique way, with defunctionalization.
+not so hot.)  This coincides, in an oblique way, with defunctionalization (see below).
 
 ### Definitional interpreters for higher-order programming languages
 
@@ -44,13 +44,23 @@ not so hot.)  This coincides, in an oblique way, with defunctionalization.
 
 This is the paper where the term "meta-circular" is introduced (while discussing the
 wisdom of trying to define the meaning of a language using an interpreter written in
-another language, or possibly even that same language).
+another language, or possibly even that same language) as well as the term "defunctionalization".
+Reynolds notes a connection to state machines:
+
+> Thus our third interpreter
+> is actually a state-transition machine, whose states each consist of the name of a serious
+> function plus a list of its arguments.
+
+And this is a pithy statement:
+
+> Although the basic concept of assignment is well understood by any competent programmer,
+> a surprising degree of care is needed to combine this concept with the language features
+> we have discussed previously.
 
 This paper was republished in Higher-Order and Symbolic Computation, issue 11, in 1998
-(pages 363–397).
-
-There is another paper "[Definitional interpreters revisited](http://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/reynolds-definitional-interpreters-revisited.pdf)" where Reynolds
-recollects on this paper.
+(pages 363–397).  There is another paper
+"[Definitional interpreters revisited](http://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/reynolds-definitional-interpreters-revisited.pdf)"
+where Reynolds recollects on this paper.
 
 ### The essence of compiling with continuations
 
@@ -70,7 +80,8 @@ This paper can sometimes be found attached to a newer paper which is a retrospec
 *   publication: ICFP '99: Proceedings of the fourth ACM SIGPLAN international conference on Functional programming
 *   available @ [citeseerx](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.44.8614)
 
-This is my own slogan: Trampolines are just defunctionalized continuations.
+This is my own slogan: Trampolines are just defunctionalized continuations.  The `cont`
+function in Interpreter III in Reynolds' paper above is an example of a trampoline.
 
 ### In Search of Types
 
@@ -102,13 +113,14 @@ Since this paper was written, there have been two schools of thought, based on
 the reaction to this assertion.
 
 One school agrees with the assertion and has persued what Wikipedia calls
-"function-level programming" which is sometimes also called "point-free programming"
+"[function-level programming](https://en.wikipedia.org/wiki/Function-level_programming)"
+which is sometimes also called "point-free programming"
 or "calculation of programs", or more loosely "equational reasoning",
-and of which concatenative languages and recursions schemes are follower to an extreme degree.
+and of which _concatenative languages_ and _recursion schemes_ are followers to an extreme degree.
 
 The other school agrees with the assertion but accepts the reality that
 von Neumann languages are entrenched and, often, are the languages with
-which the highest performance can be gotten, so has, in some sense,
+which the highest performance can be achieved, so has, in some sense,
 shouted "damn the torpedoes" and has wrestled with turning von Neumann
 programming from an art into a science *despite* its lack of useful
 mathematical properties.  This school has given us "separation logic"
@@ -164,6 +176,9 @@ worth thinking about what it means to have a formal description of
 the reactive behaviour of a system, and what it means to combine
 such formal descriptions hierarchically and in parallel.
 
+For motivating why one should care about the reactive behaviour of their
+computer program in the first place, see Samek's paper below.
+
 ### Why software jewels are rare
 
 *   authors: David Parnas
@@ -207,10 +222,14 @@ and type-and-effect systems.  You can out-and-out ignore the opinions about exce
 *   publication: Barr Group Blog
 *   available @ [barrgroup](https://barrgroup.com/embedded-systems/how-to/state-machines-event-driven-systems)
 
-Makes a very persuasive case for using hierarchical state machines to describe the
-reactive behaviour of software.
+Samek makes a very persuasive case for using state machines to describe the
+reactive behaviour of software.  Ad-hoc introduction of state variables
+(especially boolean flags), as opposed to stepping back and thinking about
+the thing as a finite state-transition system, is a common beginner mistake
+that leads to "spaghetti state" and, quite often, bugs (where a state that
+simply shouldn't exist, is entered, with undefined behaviour).
 
-It seems that most of this was originally published as "Who Moved my State?" in Dr Dobbs Journal in
+It seems that most of this article was originally published as "Who Moved my State?" in Dr Dobbs Journal in
 2003.  There were several followup articles, including "[Back to Basics](https://web.archive.org/web/20090906195311/http://www.ddj.com/cpp/184401737?pgno=5)".
 Nowadays these seem to only be available in archive.org's WayBack machine.
 
