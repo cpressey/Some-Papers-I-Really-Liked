@@ -87,6 +87,19 @@ function in Interpreter III in Reynolds' paper above is an example of a trampoli
 Type Systems
 ------------
 
+### Should Your Specification Language Be Typed?
+
+*   authors: Leslie Lamport, Lawrence C. Paulson
+*   date: May 1999
+*   publication: ACM Transactions on Programming Languages and Systems
+*   available @ [lamport.azurewebsites.net](https://lamport.azurewebsites.net/pubs/lamport-types.pdf)
+
+I suppose this could also be categorized under "Reasoning about Programs" or "Theorem Proving",
+but its focus is types, so here it is.
+
+If you've been raised on languages like Coq and Agda you might even be suprised to learn that
+specification languages needn't be typed at all.
+
 ### On Understanding Data Abstraction, Revisited
 
 *   authors: William R. Cook
