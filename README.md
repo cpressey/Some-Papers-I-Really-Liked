@@ -301,8 +301,11 @@ the thing as a finite state-transition system, is a common beginner mistake
 that leads to "spaghetti state" and, quite often, bugs (where a state that
 simply shouldn't exist, is entered, with undefined behaviour).
 
-It seems that most of this article was originally published as "Who Moved my State?" in Dr Dobbs Journal in
-2003.  There were several followup articles, including "[Back to Basics](https://web.archive.org/web/20090906195311/http://www.ddj.com/cpp/184401737?pgno=5)".
+It seems that most of this article was originally published as
+"[Who Moved my State?](https://web.archive.org/web/20160207112615/http://www.drdobbs.com/who-moved-my-state/184401643)"
+in the "The Embedded Angle" column of Dr Dobbs Journal in 2003.  There were a couple of followup articles,
+including "[Back to Basics](https://web.archive.org/web/20090906195311/http://www.ddj.com/cpp/184401737?pgno=5)"
+and "[Dj Vu](https://web.archive.org/web/20120930224548/http://www.drdobbs.com/dj-vu/184401665)".
 Nowadays these seem to only be available in archive.org's WayBack machine.
 
 Mathematics
