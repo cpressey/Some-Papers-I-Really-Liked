@@ -69,7 +69,7 @@ where Reynolds recollects on this paper.
 *   authors: C. Flanagan, Amr Sabry, Bruce F. Duba, M. Felleisen
 *   date: June 1993
 *   publication: PLDI '93: Proceedings of the ACM SIGPLAN 1993 conference on Programming language design and implementation
-*   available @ [rice](http://www.cs.rice.edu/~javaplt/311/Readings/essence-retro.pdf)
+*   available @ [archive.org](https://web.archive.org/web/20210423174105/http://www.cs.rice.edu/~javaplt/311/Readings/essence-retro.pdf)
 
 This is the paper that introduces "A-normal form".
 
@@ -311,7 +311,7 @@ Mathematics
 ### The Lattice of Topologies: Structure and Complementation
 
 *   authors: A. K. Steiner
-*   year: 1966
+*   date: 1966
 *   publication: Transactions of the AMS
 *   available @ [ams](https://www.ams.org/journals/tran/1966-122-02/S0002-9947-1966-0190893-2/S0002-9947-1966-0190893-2.pdf)
 
@@ -325,7 +325,7 @@ paper in which it was established.
 ### Infinity - A simple, but not too simple introduction
 
 *   authors: Martin Meyries
-*   year: 2015
+*   date: 2015
 *   publication: arXiv.org
 *   available @ [arxiv](https://arxiv.org/abs/1506.06319)
 
@@ -373,7 +373,7 @@ Addresses some basic philosophical issues regarding machine-checked proofs.
 ### The LCF Approach to Theorem Proving
 
 *   authors: John Harrison
-*   year: September 2001
+*   date: September 2001
 *   publication: slides from a talk given at the University of Manchester
 *   available @ [cam.ac.uk](https://www.cl.cam.ac.uk/~jrh13/slides/manchester-12sep01/slides.pdf)
 
@@ -384,7 +384,7 @@ the result of each of those operations is also necessarily a valid proof.
 ### Automated Reasoning for the Working Mathematician
 
 *   authors: Jeremy Avigad
-*   year: 2019
+*   date: 2019
 *   publication: slides from a talk given in London
 *   available @ [cmu](http://www.contrib.andrew.cmu.edu/~avigad/Talks/london)
 
@@ -394,7 +394,7 @@ when formalizing mathematics.
 ### The Future of Mathematics?
 
 *   authors: Kevin Buzzard
-*   year: January 2020
+*   date: January 2020
 *   publication: slides from a talk given at Pittsburgh
 *   available @ [ams](http://www.andrew.cmu.edu/user/avigad/meetings/fomm2020/slides/fomm_buzzard.pdf)
 
@@ -407,7 +407,7 @@ Combinatorics and Complexity
 ### Boltzmann Samplers for the Random Generation of Combinatorial Structures
 
 *   authors: Phillipe Duchon, Phillipe Flajolet, Guy Louchard, Gilles Schaefer
-*   year: 2003
+*   date: 2003
 *   publication: Combinatorics, Probability and Computing (2004) 13
 *   available @ [algo.inria.fr](http://algo.inria.fr/flajolet/Publications/DuFlLoSc04.pdf)
 
@@ -416,7 +416,7 @@ TODO: write about how this explains some things about code that generates random
 ### What Lies Between Order and Chaos?
 
 *   authors: James Crutchfield
-*   year: 1994 (updated in 2002)
+*   date: 1994 (updated in 2002)
 *   publication: Santa Fe Institute
 *   available @ [csc.ucdavis.edu](http://csc.ucdavis.edu/~cmg/compmech/tutorials/wlboac.pdf)
 
