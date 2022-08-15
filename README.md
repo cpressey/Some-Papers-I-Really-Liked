@@ -62,14 +62,14 @@ And this is a pithy statement:
 This paper was republished in Higher-Order and Symbolic Computation, issue 11, in 1998
 (pages 363–397).  There is another paper
 "[Definitional interpreters revisited](http://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/reynolds-definitional-interpreters-revisited.pdf)"
-where Reynolds recollects on this paper.
+(PDF) where Reynolds recollects on this paper.
 
 ### The essence of compiling with continuations
 
 *   authors: C. Flanagan, Amr Sabry, Bruce F. Duba, M. Felleisen
 *   date: June 1993
 *   publication: PLDI '93: Proceedings of the ACM SIGPLAN 1993 conference on Programming language design and implementation
-*   available @ [archive.org](https://web.archive.org/web/20210423174105/http://www.cs.rice.edu/~javaplt/311/Readings/essence-retro.pdf)
+*   available @ [archive.org](https://web.archive.org/web/20210423174105/http://www.cs.rice.edu/~javaplt/311/Readings/essence-retro.pdf) (PDF)
 
 This is the paper that introduces "A-normal form".
 
@@ -93,7 +93,7 @@ Type Systems
 *   authors: Leslie Lamport, Lawrence C. Paulson
 *   date: May 1999
 *   publication: ACM Transactions on Programming Languages and Systems
-*   available @ [lamport.azurewebsites.net](https://lamport.azurewebsites.net/pubs/lamport-types.pdf)
+*   available @ [lamport.azurewebsites.net](https://lamport.azurewebsites.net/pubs/lamport-types.pdf) (PDF)
 
 I suppose this could also be categorized under "Reasoning about Programs" or "Theorem Proving",
 but its focus is types, so here it is.
@@ -106,7 +106,7 @@ specification languages needn't be typed at all.
 *   authors: William R. Cook
 *   date: 2009
 *   publication: OOPSLA '09: Proceedings of the 24th ACM SIGPLAN conference on Object oriented programming systems languages and applications
-*   available @ [cs.utexas.edu](https://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf)
+*   available @ [cs.utexas.edu](https://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf) (PDF)
 
 Cogently shows that there is a difference between abstract data types and object-orientation,
 and describes it.
@@ -116,7 +116,7 @@ and describes it.
 *   authors: Stephen Kell
 *   date: 2014
 *   publication: Onward!
-*   available @ [kent.ac.uk](https://www.cs.kent.ac.uk/people/staff/srk21/papers/kell14in-author-version.pdf)
+*   available @ [kent.ac.uk](https://www.cs.kent.ac.uk/people/staff/srk21/papers/kell14in-author-version.pdf) (PDF)
 
 When a type theorist says "type" they mean something from the typed lambda calculus.
 When a software engineer says "type" they mean something they use to stop some bits
@@ -161,8 +161,8 @@ among other things.
 *   date: 1986
 *   publication: CWI Monographs (North-Holland Publishing Co., Amsterdam)
 *   available @ [citeseerx](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.694.5650)
-*   available @ [cwi.nl](https://ir.cwi.nl/pub/2686/2686D.pdf)
-*   available @ [kestrel.edu](https://www.kestrel.edu/people/meertens/publications/papers/Algorithmics.pdf)
+*   available @ [cwi.nl](https://ir.cwi.nl/pub/2686/2686D.pdf) (PDF)
+*   available @ [kestrel.edu](https://www.kestrel.edu/people/meertens/publications/papers/Algorithmics.pdf) (PDF)
 
 Motivates a lot of the "calculational style" of developing programs.
 Point-free programming, concatenative languages, and recursion schemes are all related.
@@ -172,7 +172,7 @@ Point-free programming, concatenative languages, and recursion schemes are all r
 *   authors: C. A. R. Hoare et al.
 *   date: 1987
 *   publication: Communications of the ACM, August 1987, Vol. 30 No. 8
-*   available @ [ox.ac.uk](http://www.cs.ox.ac.uk/bill.roscoe/publications/20.pdf)
+*   available @ [ox.ac.uk](http://www.cs.ox.ac.uk/bill.roscoe/publications/20.pdf) (PDF)
 
 This applies the ideas of "calculational style" to imperative, rather than functional,
 programs.  In the process it gives a mini-overview of denotational semantics.
@@ -184,7 +184,7 @@ what is often called "program refinement".
 *   authors: Richard Bird
 *   date: 1989
 *   publication: The Computer Journal
-*   available @ [academic.oup.com](https://academic.oup.com/comjnl/article-pdf/32/2/122/1445670/320122.pdf)
+*   available @ [academic.oup.com](https://academic.oup.com/comjnl/article-pdf/32/2/122/1445670/320122.pdf) (PDF)
 
 > To _calculate_ a program means to derive it from a suitable specification
 > by a process of equational reasoning.
@@ -194,7 +194,7 @@ what is often called "program refinement".
 *   authors: Graham Hutton
 *   date: July 1999
 *   publication: Journal of Functional Programming
-*   available @ [nott.ac.uk](https://www.cs.nott.ac.uk/~pszgmh/fold.pdf)
+*   available @ [nott.ac.uk](https://www.cs.nott.ac.uk/~pszgmh/fold.pdf) (PDF)
 
 Hutton talks about the universal property of `fold`, showing that it
 can be used in proofs to avoid the need for inductive proofs.  If I was
@@ -209,7 +209,7 @@ Software Engineering
 *   authors: Peter Naur
 *   date: 1985
 *   publication: Microprocessing and Microprogramming, Volume 15 Issue 5
-*   available @ [cs.wisc.edu](http://pages.cs.wisc.edu/~remzi/Naur.pdf)
+*   available @ [cs.wisc.edu](http://pages.cs.wisc.edu/~remzi/Naur.pdf) (PDF)
 
 It's worth reading.  It's hard to disagree with the main premise, that
 programmers form mental models of the programs they work on.
@@ -241,7 +241,7 @@ explicit, in their automated test suites and where-ever else.
 *   subtitle: A Visual Formalism for Complex Systems
 *   authors: David Harel
 *   date: July 1986
-*   available @ [inf.ed.ac.uk](https://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf)
+*   available @ [inf.ed.ac.uk](https://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf) (PDF)
 
 Even if you're not sold on the visual formalism Harel presents, it's
 worth thinking about what it means to have a formal description of
@@ -256,7 +256,7 @@ computer program in the first place, see Samek's paper below.
 *   authors: David Parnas
 *   date: February 1996
 *   publication: IEEE Computer Society
-*   available @ [yodaiken](https://www.yodaiken.com/papers/Why_software_jewels_are_rare.pdf)
+*   available @ [yodaiken](https://www.yodaiken.com/papers/Why_software_jewels_are_rare.pdf) (PDF)
 
 > 1. Design before implementing.
 > 2. Document your design.
@@ -269,7 +269,7 @@ computer program in the first place, see Samek's paper below.
 *   authors: Sergei Gorlatch
 *   date: January 2004
 *   publication: ACM Transactions on Programming Languages and Systems, Vol. 26, No. 1
-*   available @ [citeseerx](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.192.7656&rep=rep1&type=pdf)
+*   available @ [citeseerx](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.192.7656)
 
 My own experience is that the actor model removes potentials for data races while
 it introduces potentials for deadlocks.  You have to know what your communication
@@ -316,7 +316,7 @@ Mathematics
 *   authors: A. K. Steiner
 *   date: 1966
 *   publication: Transactions of the AMS
-*   available @ [ams](https://www.ams.org/journals/tran/1966-122-02/S0002-9947-1966-0190893-2/S0002-9947-1966-0190893-2.pdf)
+*   available @ [ams](https://www.ams.org/journals/tran/1966-122-02/S0002-9947-1966-0190893-2/S0002-9947-1966-0190893-2.pdf) (PDF)
 
 The set of all topologies on a set forms a lattice where the discrete
 topology is the supremum and the trivial topology is the infimum.
@@ -378,7 +378,7 @@ Addresses some basic philosophical issues regarding machine-checked proofs.
 *   authors: John Harrison
 *   date: September 2001
 *   publication: slides from a talk given at the University of Manchester
-*   available @ [cam.ac.uk](https://www.cl.cam.ac.uk/~jrh13/slides/manchester-12sep01/slides.pdf)
+*   available @ [cam.ac.uk](https://www.cl.cam.ac.uk/~jrh13/slides/manchester-12sep01/slides.pdf) (PDF)
 
 The LCF approach is to have an abstract data type representing valid proofs,
 exposing only those operations which represent valid proof steps, so that
@@ -389,7 +389,7 @@ the result of each of those operations is also necessarily a valid proof.
 *   authors: Jeremy Avigad
 *   date: 2019
 *   publication: slides from a talk given in London
-*   available @ [cmu](http://www.contrib.andrew.cmu.edu/~avigad/Talks/london)
+*   available @ [cmu](http://www.contrib.andrew.cmu.edu/~avigad/Talks/london) (PDF)
 
 Lots of discussion on _how much_ automation can or should be used, and when,
 when formalizing mathematics.
@@ -399,7 +399,7 @@ when formalizing mathematics.
 *   authors: Kevin Buzzard
 *   date: January 2020
 *   publication: slides from a talk given at Pittsburgh
-*   available @ [ams](http://www.andrew.cmu.edu/user/avigad/meetings/fomm2020/slides/fomm_buzzard.pdf)
+*   available @ [ams](http://www.andrew.cmu.edu/user/avigad/meetings/fomm2020/slides/fomm_buzzard.pdf) (PDF)
 
 > If my work in pure mathematics is neither useful nor
 > _100 percent guaranteed_ to be correct, it is surely a waste of time.
@@ -412,7 +412,7 @@ Combinatorics and Complexity
 *   authors: Phillipe Duchon, Phillipe Flajolet, Guy Louchard, Gilles Schaefer
 *   date: 2003
 *   publication: Combinatorics, Probability and Computing (2004) 13
-*   available @ [algo.inria.fr](http://algo.inria.fr/flajolet/Publications/DuFlLoSc04.pdf)
+*   available @ [algo.inria.fr](http://algo.inria.fr/flajolet/Publications/DuFlLoSc04.pdf) (PDF)
 
 TODO: write about how this explains some things about code that generates random structures
 
@@ -421,6 +421,6 @@ TODO: write about how this explains some things about code that generates random
 *   authors: James Crutchfield
 *   date: 1994 (updated in 2002)
 *   publication: Santa Fe Institute
-*   available @ [csc.ucdavis.edu](http://csc.ucdavis.edu/~cmg/compmech/tutorials/wlboac.pdf)
+*   available @ [csc.ucdavis.edu](http://csc.ucdavis.edu/~cmg/compmech/tutorials/wlboac.pdf) (PDF)
 
 Not technical -- a certain amount of philosophizing, popularizing, and reminiscing.
