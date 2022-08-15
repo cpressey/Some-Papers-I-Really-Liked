@@ -21,6 +21,7 @@ entries ordered chronologically within each section.
 *   [Mathematics](#mathematics)
 *   [Logic](#logic)
 *   [Theorem Proving](#theorem-proving)
+*   [Combinatorics and Complexity](#combinatorics-and-complexity)
 
 Programming Languages
 ---------------------
@@ -399,3 +400,24 @@ when formalizing mathematics.
 
 > If my work in pure mathematics is neither useful nor
 > _100 percent guaranteed_ to be correct, it is surely a waste of time.
+
+Combinatorics and Complexity
+----------------------------
+
+### Boltzmann Samplers for the Random Generation of Combinatorial Structures
+
+*   authors: Phillipe Duchon, Phillipe Flajolet, Guy Louchard, Gilles Schaefer
+*   year: 2003
+*   publication: Combinatorics, Probability and Computing (2004) 13
+*   available @ [algo.inria.fr](http://algo.inria.fr/flajolet/Publications/DuFlLoSc04.pdf)
+
+TODO: write about how this explains some things about code that generates random structures
+
+### What Lies Between Order and Chaos?
+
+*   authors: James Crutchfield
+*   year: 1994 (updated in 2002)
+*   publication: Santa Fe Institute
+*   available @ [csc.ucdavis.edu](http://csc.ucdavis.edu/~cmg/compmech/tutorials/wlboac.pdf)
+
+Not technical -- a certain amount of philosophizing, popularizing, and reminiscing.
