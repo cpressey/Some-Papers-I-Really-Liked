@@ -414,7 +414,17 @@ Combinatorics and Complexity
 *   publication: Combinatorics, Probability and Computing (2004) 13
 *   available @ [algo.inria.fr](http://algo.inria.fr/flajolet/Publications/DuFlLoSc04.pdf) (PDF)
 
-TODO: write about how this explains some things about code that generates random structures
+When you are writing some _ad hoc_ code to generate a random structure -- for example,
+for a property test, or for [NaNoGenMo](https://github.com/NaNoGenMo/) -- there are two
+things you realize sooner or later:
+
+*   If the resulting structure doesn't have the properties you want, you can
+    throw it out and start over.
+*   If the structure is recursive, you need to be careful about the probability
+    of recursing; if it's too high, there is a tendency for your structures to
+    grow indefinitely.
+
+The theory of Boltzmann Samplers formalizes these two things.
 
 ### What Lies Between Order and Chaos?
 
